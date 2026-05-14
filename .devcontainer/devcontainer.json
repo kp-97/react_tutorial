@@ -1,0 +1,23 @@
+{
+    "name": "React Tutorial",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.vscode-typescript-next"
+            ]
+        }
+    },
+    // "forwardPorts": [3000],
+    // "portsAttributes": {
+    //     "8000": {
+    //         "label": "Vite Server",
+    //         "onAutoForward": "notify",
+    //         "elevateIfNeeded": true,
+    //         "visibility": "public" 
+    //     }
+    // },
+
+}
