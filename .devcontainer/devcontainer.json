@@ -9,7 +9,7 @@
                 "ms-vscode.vscode-typescript-next"
             ]
         }
-    },
+    }
     // "forwardPorts": [3000],
     // "portsAttributes": {
     //     "8000": {

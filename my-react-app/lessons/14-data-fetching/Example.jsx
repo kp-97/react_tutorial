@@ -1,0 +1,2 @@
+import { useEffect, useState } from 'react'
+export default function Example() { const [status, setStatus] = useState('loading'); useEffect(() => { const c = new AbortController(); fetch('/favicon.svg', { signal: c.signal }).then(r => { if (!r.ok) throw Error(); setStatus('success') }).catch(e => { if (e.name !== 'AbortError') setStatus('error') }); return () => c.abort() }, []); return <p>{status}</p> }
