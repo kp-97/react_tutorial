@@ -21,7 +21,7 @@ docker compose up --build
 Open <http://localhost:5173>. Vite watches the mounted `my-react-app` directory,
 so saved edits appear immediately. Stop with `Ctrl+C`; remove the stopped container
 with `docker compose down`. Dependencies live in a Docker volume rather than on the
-host.
+host. Remember to use the tailscaled IP if using Tailscale.
 
 Useful checks:
 
