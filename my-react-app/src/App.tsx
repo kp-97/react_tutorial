@@ -1,4 +1,4 @@
-import JsxExample from '../lessons/01-jsx/Example'
+import JsxExample from "./lesson_components/Lesson1"
 
 function App() {
   return <JsxExample />
