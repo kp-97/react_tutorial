@@ -1,3 +1,6 @@
-# 08 — Forms
+# 08 - Forms
 
-Controlled inputs get values from state and report changes. Handle form submission, validate visibly, and label fields. Exercise: add email validation. Done when mouse and keyboard submission work.
+Controlled inputs get values from state and report changes. Named handlers can use
+`ChangeEvent<HTMLInputElement>` and `FormEvent<HTMLFormElement>`. Validate visibly.
+
+Exercise: add typed email validation. Done when mouse and keyboard submission work.

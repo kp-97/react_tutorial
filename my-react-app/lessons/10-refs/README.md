@@ -1,3 +1,6 @@
-# 10 — Refs
+# 10 - Refs
 
-`useRef` keeps a mutable value without rendering and can target DOM nodes. Exercise: focus the first invalid field. Done when visible data remains state, not a ref.
+`useRef<HTMLInputElement>(null)` tells TypeScript which DOM API is available. Refs
+retain mutable values without rendering and can target DOM nodes.
+
+Exercise: focus the first invalid field. Done when visible data remains state.

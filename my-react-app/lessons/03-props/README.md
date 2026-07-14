@@ -1,7 +1,7 @@
-# 03 — Props and children
+# 03 - Props and children
 
-Props are read-only inputs from a parent. Destructure them in the parameter; use a
-default value for optional data. `children` is the nested JSX passed between tags.
+Props are read-only inputs. Define a props type, mark optional values with `?`, and
+use a union when only specific values are valid. `ReactNode` describes children.
 
-Exercise: add an optional `level` prop and render three cards from different data.
-Done when the child never mutates its props.
+Exercise: add an optional typed `level` prop and render three different cards.
+Done when invalid prop values fail typecheck and the child never mutates props.
